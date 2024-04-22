@@ -1,0 +1,79 @@
+/* EmployeeForm.css */
+
+/* Container styles */
+.asset-master-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #c7c7c7;
+  color: black; 
+}
+
+/* Filters styles */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input,
+.select-input,
+.add-asset input[type="text"],
+.add-asset select,
+.asset-table th,
+.asset-table td,
+.add-asset button {
+  color: black; /* Set text color to black */
+}
+
+.search-input,
+.select-input,
+.add-asset input[type="text"],
+.add-asset select,
+.asset-table th,
+.asset-table td {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Table styles */
+.asset-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.asset-table th {
+  background-color: #f2f2f2;
+}
+
+.asset-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.asset-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Add Asset section styles */
+.add-asset {
+  margin-top: 20px;
+}
+
+.add-asset button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-asset button:hover {
+  background-color: #0056b3;
+}
